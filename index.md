@@ -125,14 +125,14 @@ setup. Secret values will not be published.
 
 ### Milestone 1
 
-The first milestone focuses on deploying the initial application,
-creating the landing page, and building mockups of at least
-four additional pages. The landing page and login page are separate tasks:
+Milestone 1 establishes the foundation of Bowz Bops through initial
+application setup and deployment, a landing page, and visual mockups
+for login, playlist discovery, playlist details, playlist creation and
+editing, and user profiles and personal playlists. It also includes
+project documentation, page screenshots, and verified setup instructions.
+The team tracks assignments and progress on the M1 project board.
 
-- [Landing page mockup — issue #2](https://github.com/bowz-bops/bowz-bops/issues/2), branch `issue-2`.
-- [Login page mockup — issue #7](https://github.com/bowz-bops/bowz-bops/issues/7), branch `issue-7`.
-
-M1 Project board link: To be added.
+[View the M1 Project Board](https://github.com/orgs/bowz-bops/projects/1/views/2)
 
 ### Milestone 2
 
