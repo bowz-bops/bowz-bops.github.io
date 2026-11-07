@@ -47,7 +47,13 @@ planned until implemented.
 
 ### Landing Page
 
-Introduces Bowz Bops and provides a place to log in.
+Introduces Bowz Bops and its main features, with a Log in link to the separate login page.
+
+Screenshot: To be added.
+
+### Login Page
+
+Provides labeled email and password fields and a Log in button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
 
 Screenshot: To be added.
 
@@ -121,7 +127,10 @@ setup. Secret values will not be published.
 
 The first milestone focuses on deploying the initial application,
 creating the landing page, and building mockups of at least
-four additional pages.
+four additional pages. The landing page and login page are separate tasks:
+
+- [Landing page mockup — issue #2](https://github.com/bowz-bops/bowz-bops/issues/2), branch `issue-2`.
+- [Login page mockup — issue #7](https://github.com/bowz-bops/bowz-bops/issues/7), branch `issue-7`.
 
 M1 Project board link: To be added.
 
