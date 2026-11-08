@@ -153,7 +153,7 @@ Bowz Bops is developed by three UH Mānoa students.
     <a href="https://github.com/LyingCakes">@LyingCakes</a>
   </div>
   <div class="team-card">
-    <img src="https://github.com/katrinaflessas.png?size=176" alt="Katrina Flessas's GitHub avatar" width="88" height="88" loading="lazy">
+    <img src="https://avatars.githubusercontent.com/u/327657024?s=176&v=4" alt="Katrina Flessas's GitHub avatar" width="88" height="88" loading="lazy">
     <strong>Katrina Flessas</strong>
     <a href="https://github.com/katrinaflessas">@katrinaflessas</a>
   </div>
