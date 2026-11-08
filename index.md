@@ -3,10 +3,6 @@ layout: default
 title: Bowz Bops
 ---
 
-# Bowz Bops
-
-Discover what UH Mānoa is listening to.
-
 ## Overview
 
 Bowz Bops is a music-sharing application for the UH Mānoa
@@ -143,11 +139,25 @@ M2 Project board link: To be added.
 
 ## Contact Us
 
-Bowz Bops is developed by:
+Bowz Bops is developed by three UH Mānoa students.
 
-- Kenneth Hironaka
-- Timothy Lovejoy
-- Katrina Flessas
+<div class="team-grid">
+  <div class="team-card">
+    <img src="https://github.com/kenneth-hironaka.png?size=176" alt="Kenneth Hironaka's GitHub avatar" width="88" height="88" loading="lazy">
+    <strong>Kenneth Hironaka</strong>
+    <a href="https://github.com/kenneth-hironaka">@kenneth-hironaka</a>
+  </div>
+  <div class="team-card">
+    <img src="https://github.com/LyingCakes.png?size=176" alt="Timothy Lovejoy's GitHub avatar" width="88" height="88" loading="lazy">
+    <strong>Timothy Lovejoy</strong>
+    <a href="https://github.com/LyingCakes">@LyingCakes</a>
+  </div>
+  <div class="team-card">
+    <img src="https://github.com/katrinaflessas.png?size=176" alt="Katrina Flessas's GitHub avatar" width="88" height="88" loading="lazy">
+    <strong>Katrina Flessas</strong>
+    <a href="https://github.com/katrinaflessas">@katrinaflessas</a>
+  </div>
+</div>
 
 For questions or feedback, please
 [open an issue](https://github.com/bowz-bops/bowz-bops/issues).
