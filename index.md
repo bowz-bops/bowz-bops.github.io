@@ -78,9 +78,18 @@ Screenshot: To be added.
 
 ### My Profile and Playlists
 
-Displays a user's profile and their playlists.
+Displays the signed-in user's profile and personal playlists. The proposed
+layout includes profile information and playlist cards with categories,
+song counts, likes, and View, Edit, and Share controls, plus a Create Playlist
+button.
 
-Screenshot: To be added.
+**Paper mockup:** The image below illustrates the proposed page layout for
+the presentation. It uses sample data; the controls and features shown are
+planned and are not evidence of implemented functionality.
+
+![Hand-drawn Bowz Bops Profile and My Playlists mockup showing a Digits-style navigation bar, profile information, and three playlist cards with View, Edit, and Share buttons.](images/mockups/profile-my-playlists.jpg)
+
+*Paper mockup by Katrina Flessas.*
 
 ## Community Feedback
 
