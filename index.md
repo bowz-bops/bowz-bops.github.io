@@ -93,6 +93,16 @@ planned and are not evidence of implemented functionality.
 
 *Paper mockup by Katrina Flessas.*
 
+Selecting **Edit Profile** will open a small dialog with fields for updating
+profile information, such as name, username, bio, and an optional photo URL,
+with Save Changes and Cancel buttons. Selecting **Share** on a playlist card
+will open a dialog displaying that playlist's link, with Copy Link and Close
+buttons. These are planned features and will not require separate pages.
+
+Selecting **Edit** on a playlist card will open the separate **Create or Edit
+Playlist** page to update that playlist and its songs. The **Edit Profile**
+dialog updates profile information only.
+
 ## Community Feedback
 
 Community feedback has not yet been collected.
