@@ -43,9 +43,13 @@ planned until implemented.
 
 ### Landing Page
 
-Introduces Bowz Bops and its main features, with a Log in link to the separate login page.
+Introduces Bowz Bops with buttons to log in and create an account (see Login Page and Create Account pages below).
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn landing page for Bowz Bops](images/mockups/landing-page-mockup.jpg)
+
+*Paper mockup by Kenneth Hironaka.*
 
 ### Login Page
 
