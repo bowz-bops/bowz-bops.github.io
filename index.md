@@ -28,7 +28,11 @@ discover popular playlists.
 
 ### Team Contract
 
-Team Contract link: To be added.
+[Read our signed Team Contract](https://docs.google.com/document/d/1ABdf0wHjsd3Jak8W_jqSBIyNmYgeHcjmLPMzYItvUhA/edit?usp=drivesdk)
+
+Our team contract records our agreed contribution and behavior expectations,
+conflict-resolution process, and each member's signature. It is publicly
+accessible with read-only access.
 
 ## Deployment
 
