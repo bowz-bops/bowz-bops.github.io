@@ -76,6 +76,11 @@ Screenshot: To be added.
 
 Allows users to enter playlist information and organize songs.
 
+Selecting **Edit** on a playlist card will open this separate **Create or Edit
+Playlist** page to update that playlist and its songs. Selecting **Create
+Playlist** will open the page with a blank form for a new playlist. This page
+is separate from the Edit Profile dialog, which updates profile information only.
+
 Screenshot: To be added.
 
 ### My Profile and Playlists
@@ -85,6 +90,19 @@ layout includes profile information and playlist cards with categories,
 song counts, likes, and View, Edit, and Share controls, plus a Create Playlist
 button.
 
+#### Edit Profile dialog
+
+Selecting **Edit Profile** will open a small form dialog for updating the user's
+name, username, bio, and optional photo URL, with Save Changes and Cancel
+buttons. This planned dialog updates profile information only and does not
+require a separate page.
+
+#### Share Playlist dialog
+
+Selecting **Share** on a playlist card will open a small dialog displaying that
+playlist's link, with Copy Link and Close buttons. This planned feature does
+not require a separate page.
+
 **Paper mockup:** The image below illustrates the proposed page layout for
 the presentation. It uses sample data; the controls and features shown are
 planned and are not evidence of implemented functionality.
@@ -92,16 +110,6 @@ planned and are not evidence of implemented functionality.
 ![Hand-drawn Bowz Bops Profile and My Playlists mockup showing a Digits-style navigation bar, profile information, and three playlist cards with View, Edit, and Share buttons.](images/mockups/profile-my-playlists.jpg)
 
 *Paper mockup by Katrina Flessas.*
-
-Selecting **Edit Profile** will open a small dialog with fields for updating
-profile information, such as name, username, bio, and an optional photo URL,
-with Save Changes and Cancel buttons. Selecting **Share** on a playlist card
-will open a dialog displaying that playlist's link, with Copy Link and Close
-buttons. These are planned features and will not require separate pages.
-
-Selecting **Edit** on a playlist card will open the separate **Create or Edit
-Playlist** page to update that playlist and its songs. The **Edit Profile**
-dialog updates profile information only.
 
 ## Community Feedback
 
