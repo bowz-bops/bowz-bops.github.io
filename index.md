@@ -51,6 +51,8 @@ Screenshot: To be added.
 
 Provides labeled email and password fields and a Log in button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
 
+Selecting **Create an Account** on the Login page will open a registration dialog with fields for name, email, password, and password confirmation, along with Create Account and Cancel buttons. This is a planned feature and will not require a separate page.
+
 Screenshot: To be added.
 
 ### Discover Playlists
@@ -74,9 +76,28 @@ Screenshot: To be added.
 
 ### My Profile and Playlists
 
-Displays a user's profile and their playlists.
+Displays the signed-in user's profile and personal playlists. The proposed
+layout includes profile information and playlist cards with categories,
+song counts, likes, and View, Edit, and Share controls, plus a Create Playlist
+button.
 
-Screenshot: To be added.
+**Paper mockup:** The image below illustrates the proposed page layout for
+the presentation. It uses sample data; the controls and features shown are
+planned and are not evidence of implemented functionality.
+
+![Hand-drawn Bowz Bops Profile and My Playlists mockup showing a Digits-style navigation bar, profile information, and three playlist cards with View, Edit, and Share buttons.](images/mockups/profile-my-playlists.jpg)
+
+*Paper mockup by Katrina Flessas.*
+
+Selecting **Edit Profile** will open a small dialog with fields for updating
+profile information, such as name, username, bio, and an optional photo URL,
+with Save Changes and Cancel buttons. Selecting **Share** on a playlist card
+will open a dialog displaying that playlist's link, with Copy Link and Close
+buttons. These are planned features and will not require separate pages.
+
+Selecting **Edit** on a playlist card will open the separate **Create or Edit
+Playlist** page to update that playlist and its songs. The **Edit Profile**
+dialog updates profile information only.
 
 ## Community Feedback
 
