@@ -73,22 +73,39 @@ Provides labeled email, username, display name, password, and confirm password f
 
 ### Discover Playlists
 
-Allows users to browse playlists by activity or category and
-view popular playlists.
+Allows users to browse playlists by activity or category and view popular playlists.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn page for Bowz Bops](images/mockups/discover-playlists-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### Playlist Details
 
 Displays a playlist's songs, creator, category, and likes.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn page for Bowz Bops](images/mockups/my-playlists-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### Create or Edit Playlist
 
 Allows users to enter playlist information and organize songs.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn create playlist page for Bowz Bops](images/mockups/create-playlist-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
+
+**Paper mockup:**
+
+![Hand-drawn edit playlist page for Bowz Bops](images/mockups/edit-playlists-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### My Profile and Playlists
 
