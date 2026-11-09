@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- AI usage: ChatGPT helped draft the custom header illustration, page layout, styling, navigation, and GitHub avatar cards. The team reviews and verifies the changes before merging. -->
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="music-hero">
+<div class="hero-inner">
+<div class="hero-copy">
+<p class="eyebrow">THE UH MĀNOA COMMUNITY MIXTAPE</p>
+<a class="brand-home" href="{{ '/' | relative_url }}"><h1>Bowz Bops<span class="gold-dot">.</span></h1></a>
+<p class="hero-tagline">Discover what UH Mānoa is listening to.</p>
+<p class="hero-caption">Your campus. Your playlists. Your next favorite song.</p>
+<div class="hero-tags" aria-label="Playlist activities"><span>Study</span><span>Workout</span><span>Party</span><span>Beach</span></div>
+</div>
+<img class="hero-art" src="{{ '/images/bowz-bops-mark.svg' | relative_url }}" alt="" width="360" height="300">
+</div>
+</header>
+<nav class="quick-nav" aria-label="Documentation shortcuts">
+<a href="#user-guide">Page mockups</a><a href="https://github.com/orgs/bowz-bops/projects/1/views/2">M1 board ↗</a><a href="https://github.com/bowz-bops">GitHub ↗</a><a href="#team-contract">Team contract</a><a href="#contact-us">Meet the team</a>
+</nav>
+<main id="content" class="main-content">{{ content }}
+<footer class="site-footer"><span>Bowz Bops</span> · Music shared by the UH Mānoa community.<br><small>Project documentation · Built with GitHub Pages and the Cayman theme.</small></footer>
+</main>
+</body>
+</html>
