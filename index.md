@@ -43,7 +43,7 @@ planned until implemented.
 
 ### Landing Page
 
-Introduces Bowz Bops with buttons to log in and create an account (see Login Page and Create Account pages below).
+Introduces Bowz Bops with buttons to sign in and create an account (see Sign In Page and Create Account pages below).
 
 **Paper mockup:**
 
@@ -51,15 +51,15 @@ Introduces Bowz Bops with buttons to log in and create an account (see Login Pag
 
 *Paper mockup by Kenneth Hironaka.*
 
-### Login Page
+### Sign In Page
 
-Provides labeled email and password fields and a Log in button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
+Provides labeled email and password fields and a Sign In button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
 
-Selecting the link to create an account on the Login page will redirect users to a separate Create Account page (see Create Account Page mockup). 
+Selecting the link to create an account on the Sign In page will redirect users to a separate Create Account page (see Create Account Page mockup). 
 
 **Paper mockup:**
 
-![Hand-drawn Login page for Bowz Bops](images/mockups/sign-in-mockup.jpg)
+![Hand-drawn Sign In page for Bowz Bops](images/mockups/sign-in-mockup.jpg)
 
 *Paper mockup by Kenneth Hironaka.*
 
@@ -177,7 +177,7 @@ setup. Secret values will not be published.
 
 Milestone 1 establishes the foundation of Bowz Bops through initial
 application setup and deployment, a landing page, and visual mockups
-for login, playlist discovery, playlist details, playlist creation and
+for sign-in, playlist discovery, playlist details, playlist creation and
 editing, and user profiles and personal playlists. It also includes
 project documentation, page screenshots, and verified setup instructions.
 The team tracks assignments and progress on the M1 project board.
