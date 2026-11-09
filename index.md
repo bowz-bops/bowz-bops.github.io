@@ -55,9 +55,21 @@ Introduces Bowz Bops with buttons to log in and create an account (see Login Pag
 
 Provides labeled email and password fields and a Log in button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
 
-Selecting **Create an Account** on the Login page will open a registration dialog with fields for name, email, password, and password confirmation, along with Create Account and Cancel buttons. This is a planned feature and will not require a separate page.
+Selecting the link to create an account on the Login page will redirect users to a separate Create Account page (see Create Account Page mockup). 
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn Login page for Bowz Bops](images/mockups/sign-in-mockup.jpg)
+
+*Paper mockup by Kenneth Hironaka.*
+
+### Create Account Page
+
+Provides labeled email, username, display name, password, and confirm password fields along with a "Create Account" button that creates an account, logs the user in, and redirects users to the My Profile and Playlists page.
+
+![Hand-drawn create account page for Bowz Bops](images/mockups/create-account-mockup.jpg)
+
+*Paper mockup by Kenneth Hironaka.*
 
 ### Discover Playlists
 
