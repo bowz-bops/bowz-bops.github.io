@@ -28,7 +28,11 @@ discover popular playlists.
 
 ### Team Contract
 
-Team Contract link: To be added.
+[Read our signed Team Contract](https://docs.google.com/document/d/1ABdf0wHjsd3Jak8W_jqSBIyNmYgeHcjmLPMzYItvUhA/edit?usp=drivesdk)
+
+Our team contract records our agreed contribution and behavior expectations,
+conflict-resolution process, and each member's signature. It is publicly
+accessible with read-only access.
 
 ## Deployment
 
@@ -39,7 +43,9 @@ Vercel deployment.
 
 The initial release will include a landing page and mockups of
 at least four additional pages. Features described below are
-planned until implemented.
+planned until implemented. The paper sketches document the proposed designs
+for the team presentation; they do not demonstrate completed application pages.
+Application webpage mockups are tracked separately on the M1 board.
 
 ### Landing Page
 
@@ -65,7 +71,7 @@ Selecting the link to create an account on the Sign In page will redirect users 
 
 ### Create Account Page
 
-Provides labeled email, username, display name, password, and confirm password fields along with a "Create Account" button that creates an account, logs the user in, and redirects users to the My Profile and Playlists page.
+Provides labeled email, username, display name, password, and confirm password fields along with a "Create Account" button. The planned behavior is to create an account, sign the user in, and open My Profile and Playlists; this paper mockup does not implement registration.
 
 ![Hand-drawn create account page for Bowz Bops](images/mockups/create-account-mockup.jpg)
 
@@ -73,27 +79,46 @@ Provides labeled email, username, display name, password, and confirm password f
 
 ### Discover Playlists
 
-Allows users to browse playlists by activity or category and view popular playlists.
+Allows users to browse playlists by activity or category and view popular playlists
+ranked by likes within each category. Selecting a playlist title opens the separate
+Playlist Details page. Signed-in users can like playlists and use **Save** to bookmark
+other users' playlists. The location for displaying saved playlists is still to be
+agreed by the team; saving does not transfer ownership or grant editing access.
 
 **Paper mockup:**
 
-![Hand-drawn page for Bowz Bops](images/mockups/discover-playlists-mockup.jpg)
+![Hand-drawn Discover Playlists page grouped by category with creators, likes, and Save controls](images/mockups/discover-playlists-mockup.jpg)
 
 *Paper mockup by Timothy Lovejoy.*
 
 ### Playlist Details
 
-Displays a playlist's songs, creator, category, and likes.
+Displays one selected playlist, including its title, creator, category, cover image,
+last-updated date, and songs. Song information includes title, artist, year, genre,
+and an optional Spotify or YouTube link. The proposed page will also show a
+playlist like count and Like control, although these are not drawn in the current
+paper sketch. This is distinct from My Profile and Playlists, which lists the
+signed-in user's own playlists.
 
 **Paper mockup:**
 
-![Hand-drawn page for Bowz Bops](images/mockups/display-playlist-mockup.jpg)
+![Hand-drawn Playlist Details page showing one playlist, creator, category, and song links](images/mockups/display-playlist-mockup.jpg)
 
 *Paper mockup by Timothy Lovejoy.*
 
 ### Create or Edit Playlist
 
-Allows users to enter playlist information and organize songs.
+Allows signed-in users to create playlists and edit playlists they own. The form
+includes playlist name, category, and the proposed visibility setting, plus song
+title, artist, year, genre, and an optional Spotify or YouTube link. **Enter** adds a
+song to the working list; the trash control removes one. **Save** stores playlist
+information, while **Finish** on the creation sketch completes the creation flow.
+The exact save flow and visibility options will be finalized during implementation.
+
+Selecting **Edit** on a playlist card will open this separate **Create or Edit
+Playlist** page to update that playlist and its songs. Selecting **Create
+Playlist** will open the page with a blank form for a new playlist. This page
+is separate from the Edit Profile dialog, which updates profile information only.
 
 **Paper mockup:**
 
@@ -114,6 +139,19 @@ layout includes profile information and playlist cards with categories,
 song counts, likes, and View, Edit, and Share controls, plus a Create Playlist
 button.
 
+#### Edit Profile dialog
+
+Selecting **Edit Profile** will open a small form dialog for updating the user's
+name, username, bio, and optional photo URL, with Save Changes and Cancel
+buttons. This planned dialog updates profile information only and does not
+require a separate page.
+
+#### Share Playlist dialog
+
+Selecting **Share** on a playlist card will open a small dialog displaying that
+playlist's link, with Copy Link and Close buttons. This planned feature does
+not require a separate page.
+
 **Paper mockup:** The image below illustrates the proposed page layout for
 the presentation. It uses sample data; the controls and features shown are
 planned and are not evidence of implemented functionality.
@@ -121,16 +159,6 @@ planned and are not evidence of implemented functionality.
 ![Hand-drawn Bowz Bops Profile and My Playlists mockup showing a Digits-style navigation bar, profile information, and three playlist cards with View, Edit, and Share buttons.](images/mockups/profile-my-playlists.jpg)
 
 *Paper mockup by Katrina Flessas.*
-
-Selecting **Edit Profile** will open a small dialog with fields for updating
-profile information, such as name, username, bio, and an optional photo URL,
-with Save Changes and Cancel buttons. Selecting **Share** on a playlist card
-will open a dialog displaying that playlist's link, with Copy Link and Close
-buttons. These are planned features and will not require separate pages.
-
-Selecting **Edit** on a playlist card will open the separate **Create or Edit
-Playlist** page to update that playlist and its songs. The **Edit Profile**
-dialog updates profile information only.
 
 ## Community Feedback
 
@@ -215,3 +243,4 @@ Bowz Bops is developed by three UH Mānoa students.
 
 For questions or feedback, please
 [open an issue](https://github.com/bowz-bops/bowz-bops/issues).
+
