@@ -36,8 +36,10 @@ accessible with read-only access.
 
 ## Deployment
 
-The deployed application link will be added after the initial
-Vercel deployment.
+[Visit the live Bowz Bops application](https://bowz-bops.vercel.app/).
+
+The application is hosted on Vercel. The landing page and application mockups
+are still under development.
 
 ## User Guide
 
