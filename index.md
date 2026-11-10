@@ -87,7 +87,7 @@ Displays a playlist's songs, creator, category, and likes.
 
 **Paper mockup:**
 
-![Hand-drawn page for Bowz Bops](images/mockups/my-playlists-mockup.jpg)
+![Hand-drawn page for Bowz Bops](images/mockups/display-playlist-mockup.jpg)
 
 *Paper mockup by Timothy Lovejoy.*
 
@@ -103,7 +103,7 @@ Allows users to enter playlist information and organize songs.
 
 **Paper mockup:**
 
-![Hand-drawn edit playlist page for Bowz Bops](images/mockups/edit-playlists-mockup.jpg)
+![Hand-drawn edit playlist page for Bowz Bops](images/mockups/edit-playlist-mockup.jpg)
 
 *Paper mockup by Timothy Lovejoy.*
 
