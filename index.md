@@ -43,45 +43,94 @@ Vercel deployment.
 
 The initial release will include a landing page and mockups of
 at least four additional pages. Features described below are
-planned until implemented.
+planned until implemented. The paper sketches document the proposed designs
+for the team presentation; they do not demonstrate completed application pages.
+Application webpage mockups are tracked separately on the M1 board.
 
 ### Landing Page
 
-Introduces Bowz Bops and its main features, with a Log in link to the separate login page.
+Introduces Bowz Bops with buttons to sign in and create an account (see Sign In Page and Create Account pages below).
 
-Screenshot: To be added.
+**Paper mockup:**
 
-### Login Page
+![Hand-drawn landing page for Bowz Bops](images/mockups/landing-page-mockup.jpg)
 
-Provides labeled email and password fields and a Log in button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
+*Paper mockup by Kenneth Hironaka.*
 
-Selecting **Create an Account** on the Login page will open a registration dialog with fields for name, email, password, and password confirmation, along with Create Account and Cancel buttons. This is a planned feature and will not require a separate page.
+### Sign In Page
 
-Screenshot: To be added.
+Provides labeled email and password fields and a Sign In button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
+
+Selecting the link to create an account on the Sign In page will redirect users to a separate Create Account page (see Create Account Page mockup). 
+
+**Paper mockup:**
+
+![Hand-drawn Sign In page for Bowz Bops](images/mockups/sign-in-mockup.jpg)
+
+*Paper mockup by Kenneth Hironaka.*
+
+### Create Account Page
+
+Provides labeled email, username, display name, password, and confirm password fields along with a "Create Account" button. The planned behavior is to create an account, sign the user in, and open My Profile and Playlists; this paper mockup does not implement registration.
+
+![Hand-drawn create account page for Bowz Bops](images/mockups/create-account-mockup.jpg)
+
+*Paper mockup by Kenneth Hironaka.*
 
 ### Discover Playlists
 
-Allows users to browse playlists by activity or category and
-view popular playlists.
+Allows users to browse playlists by activity or category and view popular playlists
+ranked by likes within each category. Selecting a playlist title opens the separate
+Playlist Details page. Signed-in users can like playlists and use **Save** to bookmark
+other users' playlists. The location for displaying saved playlists is still to be
+agreed by the team; saving does not transfer ownership or grant editing access.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn Discover Playlists page grouped by category with creators, likes, and Save controls](images/mockups/discover-playlists-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### Playlist Details
 
-Displays a playlist's songs, creator, category, and likes.
+Displays one selected playlist, including its title, creator, category, cover image,
+last-updated date, and songs. Song information includes title, artist, year, genre,
+and an optional Spotify or YouTube link. The proposed page will also show a
+playlist like count and Like control, although these are not drawn in the current
+paper sketch. This is distinct from My Profile and Playlists, which lists the
+signed-in user's own playlists.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn Playlist Details page showing one playlist, creator, category, and song links](images/mockups/display-playlist-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### Create or Edit Playlist
 
-Allows users to enter playlist information and organize songs.
+Allows signed-in users to create playlists and edit playlists they own. The form
+includes playlist name, category, and the proposed visibility setting, plus song
+title, artist, year, genre, and an optional Spotify or YouTube link. **Enter** adds a
+song to the working list; the trash control removes one. **Save** stores playlist
+information, while **Finish** on the creation sketch completes the creation flow.
+The exact save flow and visibility options will be finalized during implementation.
 
 Selecting **Edit** on a playlist card will open this separate **Create or Edit
 Playlist** page to update that playlist and its songs. Selecting **Create
 Playlist** will open the page with a blank form for a new playlist. This page
 is separate from the Edit Profile dialog, which updates profile information only.
 
-Screenshot: To be added.
+**Paper mockup:**
+
+![Hand-drawn create playlist page for Bowz Bops](images/mockups/create-playlist-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
+
+**Paper mockup:**
+
+![Hand-drawn edit playlist page for Bowz Bops](images/mockups/edit-playlist-mockup.jpg)
+
+*Paper mockup by Timothy Lovejoy.*
 
 ### My Profile and Playlists
 
@@ -156,7 +205,7 @@ setup. Secret values will not be published.
 
 Milestone 1 establishes the foundation of Bowz Bops through initial
 application setup and deployment, a landing page, and visual mockups
-for login, playlist discovery, playlist details, playlist creation and
+for sign-in, playlist discovery, playlist details, playlist creation and
 editing, and user profiles and personal playlists. It also includes
 project documentation, page screenshots, and verified setup instructions.
 The team tracks assignments and progress on the M1 project board.
@@ -194,3 +243,4 @@ Bowz Bops is developed by three UH Mānoa students.
 
 For questions or feedback, please
 [open an issue](https://github.com/bowz-bops/bowz-bops/issues).
+
