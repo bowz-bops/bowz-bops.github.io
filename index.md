@@ -38,8 +38,7 @@ accessible with read-only access.
 
 [Visit the live Bowz Bops application](https://bowz-bops.vercel.app/).
 
-The application is hosted on Vercel. The landing page and application mockups
-are still under development.
+The application is hosted on Vercel. The live app includes the M1 My Playlists and Leaderboard mockups.
 
 ## User Guide
 
@@ -136,31 +135,25 @@ is separate from the Edit Profile dialog, which updates profile information only
 
 ### My Profile and Playlists
 
-Displays the signed-in user's profile and personal playlists. The proposed
-layout includes profile information and playlist cards with categories,
-song counts, likes, and View, Edit, and Share controls, plus a Create Playlist
-button.
+The M1 mockup shows a sample student profile, a searchable and sortable collection of owned playlists, and a **Saved Playlists** section underneath. Playlist cards show cover art, categories, song counts, and likes. **View** opens a sample track list, and **Share** opens a dialog with a copyable link and sharing icons.
 
-#### Edit Profile dialog
+**Edit Profile** lets you preview changes to the display name, username, bio, profile picture, and banner. **Create Playlist** and **Edit** show notices for the planned forms. Profile edits and saved selections reset when you refresh.
 
-Selecting **Edit Profile** will open a small form dialog for updating the user's
-name, username, bio, and optional photo URL, with Save Changes and Cancel
-buttons. This planned dialog updates profile information only and does not
-require a separate page.
+[Open the My Playlists mockup](https://bowz-bops.vercel.app/my-playlists)
 
-#### Share Playlist dialog
+![My Profile and Playlists mockup showing the sample profile and owned playlist cards](images/mockups/my-playlists-m1.jpg)
 
-Selecting **Share** on a playlist card will open a small dialog displaying that
-playlist's link, with Copy Link and Close buttons. This planned feature does
-not require a separate page.
+![Saved Playlists section showing bookmarked playlists and their creators](images/mockups/saved-playlists-m1.jpg)
 
-**Paper mockup:** The image below illustrates the proposed page layout for
-the presentation. It uses sample data; the controls and features shown are
-planned and are not evidence of implemented functionality.
+### Leaderboard
 
-![Hand-drawn Bowz Bops Profile and My Playlists mockup showing a Digits-style navigation bar, profile information, and three playlist cards with View, Edit, and Share buttons.](images/mockups/profile-my-playlists.jpg)
+The M1 Leaderboard ranks sample campus playlists by likes, highlights the top three, and shows the rest in **The full rotation**. Choose a category to filter the rankings, select a playlist to preview its tracks, or click a creator’s name to browse their other sample playlists. The like and save buttons demonstrate the interaction using temporary state.
 
-*Paper mockup by Katrina Flessas.*
+[Open the Leaderboard mockup](https://bowz-bops.vercel.app/leaderboard)
+
+![Leaderboard mockup showing the Campus favorites heading, category filters, and featured playlists](images/mockups/leaderboard-m1.jpg)
+
+![The full rotation table showing playlist ranks, categories, likes, and save controls](images/mockups/leaderboard-rankings-m1.jpg)
 
 ## Community Feedback
 
@@ -223,7 +216,7 @@ M2 Project board link: To be added.
 
 ## Contact Us
 
-Bowz Bops is developed by three UH Mānoa students.
+Bowz Bops is developed by four UH Mānoa students.
 
 <div class="team-grid">
   <div class="team-card">
@@ -240,6 +233,9 @@ Bowz Bops is developed by three UH Mānoa students.
     <img src="https://avatars.githubusercontent.com/u/327657024?s=176&v=4" alt="Katrina Flessas's GitHub avatar" width="88" height="88" loading="lazy">
     <strong>Katrina Flessas</strong>
     <a href="https://github.com/katrinaflessas">@katrinaflessas</a>
+  </div>
+  <div class="team-card">
+    <strong>Mona Mutzenberg</strong>
   </div>
 </div>
 
