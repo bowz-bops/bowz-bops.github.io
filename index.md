@@ -80,6 +80,16 @@ Provides labeled email, username, display name, password, and confirm password f
 
 ### Discover Playlists
 
+**Planned playlist categories**
+
+- Studying
+- Commuting
+- Beach
+- Workout
+- Chill
+- Party
+- Throwbacks
+
 Allows users to browse playlists by activity or category and view popular playlists
 ranked by likes within each category. Selecting a playlist title opens the separate
 Playlist Details page. Signed-in users can like playlists and use **Save** to bookmark
