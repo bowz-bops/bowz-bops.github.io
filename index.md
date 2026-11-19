@@ -42,128 +42,155 @@ The application is hosted on Vercel. The live app includes the M1 My Playlists a
 
 ## User Guide
 
-The initial release will include a landing page and mockups of
-at least four additional pages. Features described below are
-planned until implemented. The paper sketches document the proposed designs
-for the team presentation; they do not demonstrate completed application pages.
-Application webpage mockups are tracked separately on the M1 board.
+These screenshots were captured from the deployed application on November 19, 2026.
+The M1 pages demonstrate the navigation, layout, and intended interactions.
+Playlist likes, saves, profile edits, and form changes are demonstrations and do
+not persist to the database or synchronize between pages. Refreshing resets them.
+Playback controls are visual demonstrations, not an audio streaming service.
 
 ### Landing Page
 
-Introduces Bowz Bops with buttons to sign in and create an account (see Sign In Page and Create Account pages below).
+The landing page introduces Bowz Bops with a tropical, vinyl-inspired background
+and buttons for **Sign In** and **Create Account**. The shared navbar links to
+Discover, Create Playlist, Leaderboard, and My Playlists.
 
-**Paper mockup:**
+[Open the landing page](https://bowz-bops.vercel.app/)
 
-![Hand-drawn landing page for Bowz Bops](images/mockups/landing-page-mockup.jpg)
+![Deployed Bowz Bops landing page with tropical background and shared navigation](images/screenshots/m1/landing-page.jpg)
 
-*Paper mockup by Kenneth Hironaka.*
+*Landing page by Kenneth Hironaka.*
 
 ### Sign In Page
 
-Provides labeled email and password fields and a Sign In button, with navigation back to the landing page. This is a visual mockup for M1; authentication behavior will follow the team's agreed milestone scope.
+Enter an email and password to use the existing account authentication flow.
+The page includes a link to Create Account and uses the landing page's background
+and shared navigation. Live seed passwords are shared privately, not in this guide.
 
-Selecting the link to create an account on the Sign In page will redirect users to a separate Create Account page (see Create Account Page mockup). 
+[Open Sign In](https://bowz-bops.vercel.app/auth/signin)
 
-**Paper mockup:**
-
-![Hand-drawn Sign In page for Bowz Bops](images/mockups/sign-in-mockup.jpg)
-
-*Paper mockup by Kenneth Hironaka.*
+![Sign In page with email and password fields](images/screenshots/m1/sign-in.jpg)
 
 ### Create Account Page
 
-Provides labeled email, username, display name, password, and confirm password fields along with a "Create Account" button. The planned behavior is to create an account, sign the user in, and open My Profile and Playlists; this paper mockup does not implement registration.
+The current registration form has **Email**, **Password**, and **Confirm Password**
+fields, along with **Create Account**, **Reset**, and a link back to Sign In.
+Username and display-name fields from the original paper sketch are not part of
+this version. This screen documents the current account form, not completed
+playlist or profile database integration.
 
-![Hand-drawn create account page for Bowz Bops](images/mockups/create-account-mockup.jpg)
+[Open Create Account](https://bowz-bops.vercel.app/auth/signup)
 
-*Paper mockup by Kenneth Hironaka.*
+![Create Account page showing the current registration fields](images/screenshots/m1/create-account.jpg)
+
+*Account page styling by Kenneth Hironaka.*
 
 ### Discover Playlists
 
-**Planned playlist categories**
+Browse fictional campus playlists grouped into **Studying**, **Beach**,
+**Workout**, **Chill**, and **Party**. Category shortcuts jump to each section;
+search narrows the sample collection, and expandable sections reveal additional
+playlists. Cards include creator links, a playlist preview, and temporary Like,
+Save, and Share controls. The separate Playlist Details page provides a longer
+track-list view.
 
-- Studying
-- Commuting
-- Beach
-- Workout
-- Chill
-- Party
-- Throwbacks
+The team's planned category set also includes **Commuting** and **Throwbacks**;
+those two categories are not yet shown in this Discover mockup. The create/edit
+forms also still contain some earlier category labels, to be aligned in M2.
 
-Allows users to browse playlists by activity or category and view popular playlists
-ranked by likes within each category. Selecting a playlist title opens the separate
-Playlist Details page. Signed-in users can like playlists and use **Save** to bookmark
-other users' playlists. The location for displaying saved playlists is still to be
-agreed by the team; saving does not transfer ownership or grant editing access.
+[Open Discover Playlists](https://bowz-bops.vercel.app/discover)
 
-**Paper mockup:**
+![Discover Playlists mockup showing the campus directory and category shortcuts](images/screenshots/m1/discover.jpg)
 
-![Hand-drawn Discover Playlists page grouped by category with creators, likes, and Save controls](images/mockups/discover-playlists-mockup.jpg)
-
-*Paper mockup by Timothy Lovejoy.*
+*Discover mockup by Timothy Lovejoy.*
 
 ### Playlist Details
 
-Displays one selected playlist, including its title, creator, category, cover image,
-last-updated date, and songs. Song information includes title, artist, year, genre,
-and an optional Spotify or YouTube link. The proposed page will also show a
-playlist like count and Like control, although these are not drawn in the current
-paper sketch. This is distinct from My Profile and Playlists, which lists the
-signed-in user's own playlists.
+The detail view shows a sample playlist's cover, title, creator, category,
+description, likes, track count, and total duration. The track table includes
+song titles, artists, years, durations, and example external listening links.
+Search, sorting, playlist selection, and temporary like/save/share controls
+demonstrate the intended experience. Play/pause controls do not stream audio,
+and some external links are examples rather than song-specific destinations.
+**Add Song** currently opens a notice for future database integration.
 
-**Paper mockup:**
+[Open Playlist Details](https://bowz-bops.vercel.app/playlist-details)
 
-![Hand-drawn Playlist Details page showing one playlist, creator, category, and song links](images/mockups/display-playlist-mockup.jpg)
+![Playlist Details mockup showing a sample playlist overview and track-list controls](images/screenshots/m1/playlist-details.jpg)
 
-*Paper mockup by Timothy Lovejoy.*
+*Playlist Details mockup by Timothy Lovejoy.*
 
-### Create or Edit Playlist
+### Create Playlist
 
-Allows signed-in users to create playlists and edit playlists they own. The form
-includes playlist name, category, and the proposed visibility setting, plus song
-title, artist, year, genre, and an optional Spotify or YouTube link. **Enter** adds a
-song to the working list; the trash control removes one. **Save** stores playlist
-information, while **Finish** on the creation sketch completes the creation flow.
-The exact save flow and visibility options will be finalized during implementation.
+The creation form has playlist name, category, visibility, and song fields for
+title, artist, year, genre, and an optional link. The plus button adds a song to
+the working list and the trash button removes it. **Save** and **Finish** display
+local feedback; they do not create a database record. One sample track is present
+initially. Use the navbar's **Create Playlist** link to open this page; the button
+inside My Playlists still displays its original placeholder notice.
 
-Selecting **Edit** on a playlist card will open this separate **Create or Edit
-Playlist** page to update that playlist and its songs. Selecting **Create
-Playlist** will open the page with a blank form for a new playlist. This page
-is separate from the Edit Profile dialog, which updates profile information only.
+[Open Create Playlist](https://bowz-bops.vercel.app/create-playlist)
 
-**Paper mockup:**
+![Create Playlist mockup with playlist information and song-entry controls](images/screenshots/m1/create-playlist.jpg)
 
-![Hand-drawn create playlist page for Bowz Bops](images/mockups/create-playlist-mockup.jpg)
+### Edit Playlist
 
-*Paper mockup by Timothy Lovejoy.*
+The edit form starts with the sample **John's Bops** playlist. Users can change
+its name, category, visibility, and working track list, then try **Save** or
+**Reset**. The **Edit** buttons on My Playlists now open this page, but they do not
+yet load the selected card's data. Loading the selected playlist, enforcing
+ownership, and saving changes to PostgreSQL are M2 work.
 
-**Paper mockup:**
+[Open Edit Playlist](https://bowz-bops.vercel.app/edit-playlist)
 
-![Hand-drawn edit playlist page for Bowz Bops](images/mockups/edit-playlist-mockup.jpg)
+![Edit Playlist mockup showing the sample playlist and Reset control](images/screenshots/m1/edit-playlist.jpg)
 
-*Paper mockup by Timothy Lovejoy.*
+*Create and Edit webpage mockups by Mona Mutzenberg, based on the team's paper designs.*
 
 ### My Profile and Playlists
 
-The M1 mockup shows a sample student profile, a searchable and sortable collection of owned playlists, and a **Saved Playlists** section underneath. Playlist cards show cover art, categories, song counts, and likes. **View** opens a sample track list, and **Share** opens a dialog with a copyable link and sharing icons.
+The sample profile appears above a searchable, sortable collection of owned
+playlists. **Saved Playlists** is underneath the owned collection. Cards show
+illustrated cover art, category, song count, and likes. **View** opens a sample
+track dialog; **Edit** opens the separate edit-page mockup.
 
-**Edit Profile** lets you preview changes to the display name, username, bio, profile picture, and banner. **Create Playlist** and **Edit** show notices for the planned forms. Profile edits and saved selections reset when you refresh.
+**Edit Profile** previews changes to name, username, bio, profile picture, and
+background. **Share** provides a copyable link and Facebook, Twitter/X, Instagram,
+Spotify, and YouTube icons. Facebook and X open sharing destinations; the other
+icons copy the link with instructions. These controls do not publish directly to
+all of those services. Removing a saved playlist offers Undo. Profile and saved
+changes are local to this page and reset on refresh.
 
-[Open the My Playlists mockup](https://bowz-bops.vercel.app/my-playlists)
+[Open My Playlists](https://bowz-bops.vercel.app/my-playlists)
 
-![My Profile and Playlists mockup showing the sample profile and owned playlist cards](images/mockups/my-playlists-m1.jpg)
+![My Profile and Playlists mockup with profile banner, owned playlists, and Saved Playlists below](images/screenshots/m1/my-playlists.jpg)
 
-![Saved Playlists section showing bookmarked playlists and their creators](images/mockups/saved-playlists-m1.jpg)
+*My Playlists mockup by Katrina Flessas.*
 
 ### Leaderboard
 
-The M1 Leaderboard ranks sample campus playlists by likes, highlights the top three, and shows the rest in **The full rotation**. Choose a category to filter the rankings, select a playlist to preview its tracks, or click a creator’s name to browse their other sample playlists. The like and save buttons demonstrate the interaction using temporary state.
+The Leaderboard highlights the top three sample playlists and lists all sample
+rankings in **The full rotation**. Category filters narrow the list; playlist
+controls open track previews, and creator links open sample creator profiles.
+Like and save controls demonstrate local state only and do not update the My
+Playlists collection or a database-backed ranking.
 
-[Open the Leaderboard mockup](https://bowz-bops.vercel.app/leaderboard)
+[Open Leaderboard](https://bowz-bops.vercel.app/leaderboard)
 
-![Leaderboard mockup showing the Campus favorites heading, category filters, and featured playlists](images/mockups/leaderboard-m1.jpg)
+![Leaderboard mockup with top-three playlists, category filters, and complete ranking table](images/screenshots/m1/leaderboard.jpg)
 
-![The full rotation table showing playlist ranks, categories, likes, and save controls](images/mockups/leaderboard-rankings-m1.jpg)
+*Initial Leaderboard mockup by Katrina Flessas; Mona Mutzenberg owns its M2 development.*
+
+### Original Paper Designs
+
+The initial sketches remain available for comparison with the implemented M1 mockups:
+[Landing](images/mockups/landing-page-mockup.jpg),
+[Sign In](images/mockups/sign-in-mockup.jpg),
+[Create Account](images/mockups/create-account-mockup.jpg),
+[Discover](images/mockups/discover-playlists-mockup.jpg),
+[Playlist Details](images/mockups/display-playlist-mockup.jpg),
+[Create Playlist](images/mockups/create-playlist-mockup.jpg),
+[Edit Playlist](images/mockups/edit-playlist-mockup.jpg), and
+[My Playlists](images/mockups/profile-my-playlists.jpg).
 
 ## Community Feedback
 
@@ -183,6 +210,7 @@ changes made in response to their suggestions.
 - Prisma
 - GitHub
 - Vercel
+- Neon (hosted PostgreSQL)
 
 ### Local Installation
 
@@ -219,10 +247,13 @@ The team tracks assignments and progress on the M1 project board.
 
 ### Milestone 2
 
-The second milestone's planned work will be documented here
-when the team transitions to M2.
+M2 will introduce shared playlist models and fictional seed data, connect the
+page mockups to PostgreSQL, and implement persistent playlist creation, editing,
+saving, profile changes, and leaderboard likes. Page owners will update their
+Playwright coverage alongside their features. Documentation and screenshots will
+be refreshed as working features are merged.
 
-M2 Project board link: To be added.
+[View the M2 Project Board](https://github.com/orgs/bowz-bops/projects/3)
 
 ## Contact Us
 
