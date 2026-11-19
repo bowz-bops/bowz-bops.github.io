@@ -30,7 +30,7 @@ a:focus-visible {outline:3px solid #a86611;outline-offset:4px}
 .main-content img {max-width:100%;height:auto}
 .main-content p > img {display:block;margin:1.4rem auto;border:1px solid #d7ddd0;border-radius:10px;box-shadow:0 5px 18px #123f3610}
 .main-content pre {border-radius:8px}
-.team-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0}
+.team-grid {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1.5rem 0}
 .team-card {background:#fff;border:1px solid #dce2d6;border-radius:14px;padding:1.5rem .8rem;text-align:center}
 .team-card img {width:88px;height:88px;object-fit:cover;border-radius:50%;border:3px solid #e6cf94;margin-bottom:.7rem}
 .team-card strong {display:block;color:var(--pine);font-size:1rem}
