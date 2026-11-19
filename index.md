@@ -253,7 +253,7 @@ saving, profile changes, and leaderboard likes. Page owners will update their
 Playwright coverage alongside their features. Documentation and screenshots will
 be refreshed as working features are merged.
 
-[View the M2 Project Board](https://github.com/orgs/bowz-bops/projects/3)
+[View the M2 Project Board](https://github.com/orgs/bowz-bops/projects/3/views/2)
 
 ## Contact Us
 
