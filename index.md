@@ -125,8 +125,8 @@ The creation form has playlist name, category, visibility, and song fields for
 title, artist, year, genre, and an optional link. The plus button adds a song to
 the working list and the trash button removes it. **Save** and **Finish** display
 local feedback; they do not create a database record. One sample track is present
-initially. Use the navbar's **Create Playlist** link to open this page; the button
-inside My Playlists still displays its original placeholder notice.
+initially. Both the navbar's **Create Playlist** link and the button inside
+My Playlists open this page.
 
 [Open Create Playlist](https://bowz-bops.vercel.app/create-playlist)
 
@@ -151,7 +151,10 @@ ownership, and saving changes to PostgreSQL are M2 work.
 The sample profile appears above a searchable, sortable collection of owned
 playlists. **Saved Playlists** is underneath the owned collection. Cards show
 illustrated cover art, category, song count, and likes. **View** opens a sample
-track dialog; **Edit** opens the separate edit-page mockup.
+track dialog; **Edit** opens the separate edit-page mockup. The sample collection
+includes **Campus Commute** (Commuting) and **Throwback Rotation** (Throwbacks),
+alongside the Studying, Beach, and Workout playlists. Search matches playlist
+titles and categories, including these two new categories.
 
 **Edit Profile** previews changes to name, username, bio, profile picture, and
 background. **Share** provides a copyable link and Facebook, Twitter/X, Instagram,
@@ -164,12 +167,16 @@ changes are local to this page and reset on refresh.
 
 ![My Profile and Playlists mockup with profile banner, owned playlists, and Saved Playlists below](images/screenshots/m1/my-playlists.jpg)
 
-*My Playlists mockup by Katrina Flessas.*
+*My Playlists mockup by Katrina Flessas. The November 19 M1 screenshot predates
+the Commuting and Throwbacks sample playlists.*
 
 ### Leaderboard
 
 The Leaderboard highlights the top three sample playlists and lists all sample
-rankings in **The full rotation**. Category filters narrow the list; playlist
+rankings in **The full rotation**. Its category filters include **Studying**,
+**Commuting**, **Beach**, **Workout**, **Chill**, **Party**, and **Throwbacks**.
+Campus Commute and Throwback Rotation provide sample results for the two added
+categories. Category filters narrow the list; playlist
 controls open track previews, and creator links open sample creator profiles.
 Like and save controls demonstrate local state only and do not update the My
 Playlists collection or a database-backed ranking.
@@ -178,7 +185,8 @@ Playlists collection or a database-backed ranking.
 
 ![Leaderboard mockup with top-three playlists, category filters, and complete ranking table](images/screenshots/m1/leaderboard.jpg)
 
-*Initial Leaderboard mockup by Katrina Flessas; Mona Mutzenberg owns its M2 development.*
+*Initial Leaderboard mockup by Katrina Flessas; Mona Mutzenberg owns its M2 development.
+The November 19 M1 screenshot predates the Commuting and Throwbacks filters.*
 
 ### Original Paper Designs
 
